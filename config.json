@@ -1,1 +1,516 @@
 
+{
+  "cache_time": 7200,
+  "api_site": {
+    "1080zyku": {
+      "api": "https://api.1080zyku.com/inc/api_mac10.php",
+      "name": "TV-1080资源",
+      "detail": "https://api.1080zyku.com"
+    },
+    "tmdb": {
+      "api": "https://api.themoviedb.org/3/movie/popular?api_key=YOUR_KEY",
+      "name": "The Movie Database",
+      "detail": "https://www.themoviedb.org"
+    },
+    "omdb": {
+      "api": "http://www.omdbapi.com/?t=title&apikey=YOUR_KEY",
+      "name": "OMDb API",
+      "detail": "http://www.omdbapi.com"
+    },
+    "tvmaze": {
+      "api": "https://api.tvmaze.com/search/shows?q=query",
+      "name": "TVmaze API",
+      "detail": "https://www.tvmaze.com/api"
+    },
+    "imdb": {
+      "api": "https://imdb-api.com/en/API/Title/k_YOUR_KEY/tt_id",
+      "name": "IMDb API",
+      "detail": "https://imdb-api.com"
+    },
+    "watchmode": {
+      "api": "https://api.watchmode.com/v1/title/tt_id/sources/?apiKey=YOUR_KEY",
+      "name": "Watchmode API",
+      "detail": "https://watchmode.com"
+    },
+    "reelgood": {
+      "api": "https://api.reelgood.com/v2/search?query=title",
+      "name": "Reelgood API",
+      "detail": "https://reelgood.com"
+    },
+    "justwatch": {
+      "api": "https://apis.justwatch.com/content/titles/en_US/popular",
+      "name": "JustWatch API",
+      "detail": "https://www.justwatch.com"
+    },
+    "trakt": {
+      "api": "https://api.trakt.tv/movies/popular",
+      "name": "Trakt API",
+      "detail": "https://trakt.tv"
+    },
+    "mux": {
+      "api": "https://api.mux.com/video/v1/assets",
+      "name": "Mux Video API",
+      "detail": "https://www.mux.com"
+    },
+    "api_video": {
+      "api": "https://ws.api.video/videos",
+      "name": "api.video",
+      "detail": "https://api.video"
+    },
+    "cloudinary": {
+      "api": "https://api.cloudinary.com/v1_1/your_cloud_name/video/upload",
+      "name": "Cloudinary Video API",
+      "detail": "https://cloudinary.com"
+    },
+    "vdocipher": {
+      "api": "https://api.vdocipher.com/v2/",
+      "name": "VdoCipher API",
+      "detail": "https://www.vdocipher.com"
+    },
+    "brightcove": {
+      "api": "https://api.brightcove.com/playback/v1/accounts/YOUR_ACCOUNT/videos",
+      "name": "Brightcove API",
+      "detail": "https://www.brightcove.com"
+    },
+    "vimeo": {
+      "api": "https://api.vimeo.com/videos?query=title",
+      "name": "Vimeo API",
+      "detail": "https://developer.vimeo.com"
+    },
+    "youtube": {
+      "api": "https://www.googleapis.com/youtube/v3/search?key=YOUR_KEY&q=title",
+      "name": "YouTube Data API",
+      "detail": "https://developers.google.com/youtube"
+    },
+    "dailymotion": {
+      "api": "https://api.dailymotion.com/videos?search=title",
+      "name": "Dailymotion API",
+      "detail": "https://developer.dailymotion.com"
+    },
+    "twitch": {
+      "api": "https://api.twitch.tv/helix/videos?user_id=ID",
+      "name": "Twitch API",
+      "detail": "https://dev.twitch.tv"
+    },
+    "bunny": {
+      "api": "https://api.bunny.net/v1/stream/videos",
+      "name": "Bunny Stream API",
+      "detail": "https://bunny.net"
+    },
+    "vidizmo": {
+      "api": "https://api.vidizmo.com/rest/v1/video",
+      "name": "VIDIZMO API",
+      "detail": "https://vidizmo.ai"
+    },
+    "wowza": {
+      "api": "https://api.wowza.com/v1/streaming",
+      "name": "Wowza API",
+      "detail": "https://www.wowza.com"
+    },
+    "fastpix": {
+      "api": "https://api.fastpix.io/v1/videos",
+      "name": "FastPix API",
+      "detail": "https://www.fastpix.io"
+    },
+    "jwplayer": {
+      "api": "https://api.jwplayer.com/v1/videos",
+      "name": "JW Player API",
+      "detail": "https://www.jwplayer.com"
+    },
+    "wistia": {
+      "api": "https://api.wistia.com/v1/medias.json",
+      "name": "Wistia API",
+      "detail": "https://wistia.com"
+    },
+    "qencode": {
+      "api": "https://api.qencode.com/v1/video",
+      "name": "Qencode API",
+      "detail": "https://qencode.com"
+    },
+    "zencoder": {
+      "api": "https://app.zencoder.com/api/v2/jobs",
+      "name": "Zencoder API",
+      "detail": "https://zencoder.com"
+    },
+    "bitmovin": {
+      "api": "https://api.bitmovin.com/v1/encoding",
+      "name": "Bitmovin API",
+      "detail": "https://bitmovin.com"
+    },
+    "akamai": {
+      "api": "https://api.akamai.com/media-delivery",
+      "name": "Akamai Media Delivery API",
+      "detail": "https://www.akamai.com"
+    },
+    "vidsrc": {
+      "api": "https://vidsrc.me/api/",
+      "name": "VidSrc API",
+      "detail": "https://vidsrc.me"
+    },
+    "superembed": {
+      "api": "https://www.superembed.stream/api",
+      "name": "SuperEmbed API",
+      "detail": "https://www.superembed.stream"
+    },
+    "netflix": {
+      "api": "https://api.netflix.com/catalog/titles",
+      "name": "Netflix API (unofficial)",
+      "detail": "https://www.netflix.com"
+    },
+    "hulu": {
+      "api": "https://api.hulu.com/search?query=title",
+      "name": "Hulu API",
+      "detail": "https://www.hulu.com"
+    },
+    "disneyplus": {
+      "api": "https://api.disneyplus.com/search?q=title",
+      "name": "Disney+ API",
+      "detail": "https://www.disneyplus.com"
+    },
+    "primevideo": {
+      "api": "https://api.primevideo.com/search?keywords=title",
+      "name": "Amazon Prime Video API",
+      "detail": "https://www.primevideo.com"
+    },
+    "hbomax": {
+      "api": "https://api.hbomax.com/search?q=title",
+      "name": "HBO Max API",
+      "detail": "https://www.hbomax.com"
+    },
+    "paramountplus": {
+      "api": "https://api.paramountplus.com/search?query=title",
+      "name": "Paramount+ API",
+      "detail": "https://www.paramountplus.com"
+    },
+    "peacocktv": {
+      "api": "https://api.peacocktv.com/search?term=title",
+      "name": "Peacock API",
+      "detail": "https://www.peacocktv.com"
+    },
+    "appletv": {
+      "api": "https://api.itunes.apple.com/search?term=title&media=movie",
+      "name": "Apple TV API",
+      "detail": "https://developer.apple.com"
+    },
+    "plex": {
+      "api": "https://metadata.provider.plex.tv/library/sections",
+      "name": "Plex API",
+      "detail": "https://www.plex.tv"
+    },
+    "emby": {
+      "api": "http://your-server:8096/emby/Items?Recursive=true&IncludeItemTypes=Movie",
+      "name": "Emby API",
+      "detail": "https://emby.media"
+    },
+    "jellyfin": {
+      "api": "http://your-server:8096/Items?Recursive=true&IncludeItemTypes=Movie",
+      "name": "Jellyfin API",
+      "detail": "https://jellyfin.org"
+    },
+    "kodi": {
+      "api": "http://your-host:8080/jsonrpc",
+      "name": "Kodi JSON-RPC",
+      "detail": "https://kodi.tv"
+    },
+    "stremio": {
+      "api": "https://api.stremio.com/manifest.json",
+      "name": "Stremio API",
+      "detail": "https://www.stremio.com"
+    },
+    "popcornflix": {
+      "api": "https://api.popcornflix.com/search",
+      "name": "Popcornflix API",
+      "detail": "https://www.popcornflix.com"
+    },
+    "crackle": {
+      "api": "https://api.crackle.com/search?q=title",
+      "name": "Crackle API",
+      "detail": "https://www.crackle.com"
+    },
+    "tubitv": {
+      "api": "https://api.tubi.tv/search?query=title",
+      "name": "Tubi API",
+      "detail": "https://tubitv.com"
+    },
+    "plutotv": {
+      "api": "https://api.plutotv.com/search",
+      "name": "Pluto TV API",
+      "detail": "https://pluto.tv"
+    },
+    "imdbtv": {
+      "api": "https://api.imdbtv.com/videos",
+      "name": "IMDb TV API",
+      "detail": "https://www.imdb.com/tv"
+    },
+    "vudu": {
+      "api": "https://api.vudu.com/search",
+      "name": "Vudu API",
+      "detail": "https://www.vudu.com"
+    },
+    "fandango": {
+      "api": "https://api.fandango.com/search?query=title",
+      "name": "Fandango API",
+      "detail": "https://www.fandango.com"
+    },
+    "rottentomatoes": {
+      "api": "https://www.rottentomatoes.com/api/private/v2.0/search?query=title",
+      "name": "Rotten Tomatoes API",
+      "detail": "https://www.rottentomatoes.com"
+    },
+    "letterboxd": {
+      "api": "https://api.letterboxd.com/films/search?query=title",
+      "name": "Letterboxd API",
+      "detail": "https://letterboxd.com"
+    },
+    "metacritic": {
+      "api": "https://www.metacritic.com/api/search?search=title",
+      "name": "Metacritic API",
+      "detail": "https://www.metacritic.com"
+    },
+    "tvguide": {
+      "api": "https://api.tvguide.com/search?query=title",
+      "name": "TV Guide API",
+      "detail": "https://www.tvguide.com"
+    },
+    "epguides": {
+      "api": "http://api.tvmaze.com/singlesearch/shows?q=title",
+      "name": "EPGuides API",
+      "detail": "http://epguides.com"
+    },
+    "tvtime": {
+      "api": "https://api.tvtime.com/v1/search?query=title",
+      "name": "TV Time API",
+      "detail": "https://www.tvtime.com"
+    },
+    "simkl": {
+      "api": "https://api.simkl.com/search/title?text=title",
+      "name": "Simkl API",
+      "detail": "https://simkl.com"
+    },
+    "thetvdb": {
+      "api": "https://api.thetvdb.com/search/series?name=title",
+      "name": "TheTVDB API",
+      "detail": "https://thetvdb.com"
+    },
+    "fanarttv": {
+      "api": "https://webservice.fanart.tv/v3/movies/tt_id?api_key=KEY",
+      "name": "Fanart.tv API",
+      "detail": "https://fanart.tv"
+    },
+    "aliyundrive": {
+      "api": "https://api.aliyundrive.com/v2/search",
+      "name": "阿里云盘 API",
+      "detail": "https://www.aliyundrive.com"
+    },
+    "baiducloud": {
+      "api": "https://pan.baidu.com/api/search",
+      "name": "百度网盘 API",
+      "detail": "https://pan.baidu.com"
+    },
+    "tencentvideo": {
+      "api": "https://v.qq.com/x/search/?q=title",
+      "name": "腾讯视频 API",
+      "detail": "https://v.qq.com"
+    },
+    "youku": {
+      "api": "https://play.youku.com/search/video?kd=title",
+      "name": "优酷 API",
+      "detail": "https://www.youku.com"
+    },
+    "iqiyi": {
+      "api": "https://mixer.video.iqiyi.com/jsonp/v1/search/video/search",
+      "name": "爱奇艺 API",
+      "detail": "https://www.iqiyi.com"
+    },
+    "bilibili": {
+      "api": "https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword=title",
+      "name": "Bilibili API",
+      "detail": "https://www.bilibili.com"
+    },
+    "mangotv": {
+      "api": "https://www.mgtv.com/search/?keyword=title",
+      "name": "芒果 TV API",
+      "detail": "https://www.mgtv.com"
+    },
+    "letv": {
+      "api": "https://so.le.com/search?q=title",
+      "name": "乐视 API",
+      "detail": "https://www.le.com"
+    },
+    "pptv": {
+      "api": "https://search.pptv.com/?kw=title",
+      "name": "PP视频 API",
+      "detail": "https://www.pptv.com"
+    },
+    "sohu": {
+      "api": "https://search.sohu.com/s2018/?keyword=title",
+      "name": "搜狐视频 API",
+      "detail": "https://tv.sohu.com"
+    },
+    "56net": {
+      "api": "https://so.56.com/search/keyword?kw=title",
+      "name": "56网 API",
+      "detail": "https://www.56.com"
+    },
+    "funshion": {
+      "api": "https://www.funshion.com/search?key=title",
+      "name": "风行网 API",
+      "detail": "https://www.funshion.com"
+    },
+    "acfun": {
+      "api": "https://www.acfun.cn/search?word=title",
+      "name": "AcFun API",
+      "detail": "https://www.acfun.cn"
+    },
+    "kuaishou": {
+      "api": "https://www.kuaishou.com/search/videoList?keyword=title",
+      "name": "快手 API",
+      "detail": "https://www.kuaishou.com"
+    },
+    "douyin": {
+      "api": "https://www.douyin.com/search?keyword=title",
+      "name": "抖音 API",
+      "detail": "https://www.douyin.com"
+    },
+    "okru": {
+      "api": "https://ok.ru/videoembed/ID",
+      "name": "OK.ru API",
+      "detail": "https://ok.ru"
+    },
+    "mailru": {
+      "api": "https://my.mail.ru/video/embed/ID",
+      "name": "Mail.ru API",
+      "detail": "https://my.mail.ru"
+    },
+    "vk": {
+      "api": "https://vk.com/video?oid=ID&vid=ID",
+      "name": "VK Video API",
+      "detail": "https://vk.com"
+    },
+    "streamtape": {
+      "api": "https://api.streamtape.com/getfile?id=ID",
+      "name": "Streamtape API",
+      "detail": "https://streamtape.com"
+    },
+    "doodstream": {
+      "api": "https://doodapi.com/api/info",
+      "name": "Doodstream API",
+      "detail": "https://doodstream.com"
+    },
+    "mixdrop": {
+      "api": "https://api.mixdrop.co/info",
+      "name": "Mixdrop API",
+      "detail": "https://mixdrop.co"
+    },
+    "filemoon": {
+      "api": "https://api.filemoon.sx/file/id",
+      "name": "Filemoon API",
+      "detail": "https://filemoon.sx"
+    },
+    "vidcloud": {
+      "api": "https://api.vidcloud.icu/embed-1",
+      "name": "VidCloud API",
+      "detail": "https://vidcloud.icu"
+    },
+    "fembed": {
+      "api": "https://api.fembed.com/info",
+      "name": "Fembed API",
+      "detail": "https://fembed.com"
+    },
+    "youtube_embed": {
+      "api": "https://www.youtube.com/embed/VIDEO_ID",
+      "name": "YouTube Embed",
+      "detail": "https://www.youtube.com"
+    },
+    "vimeo_embed": {
+      "api": "https://player.vimeo.com/video/VIDEO_ID",
+      "name": "Vimeo Embed",
+      "detail": "https://vimeo.com"
+    },
+    "dailymotion_embed": {
+      "api": "https://www.dailymotion.com/embed/video/VIDEO_ID",
+      "name": "Dailymotion Embed",
+      "detail": "https://www.dailymotion.com"
+    },
+    "twitch_embed": {
+      "api": "https://player.twitch.tv/?channel=CHANNEL",
+      "name": "Twitch Embed",
+      "detail": "https://www.twitch.tv"
+    },
+    "contentful": {
+      "api": "https://api.contentful.com/spaces/YOUR_SPACE/assets",
+      "name": "Contentful Video API",
+      "detail": "https://www.contentful.com"
+    },
+    "vidsrcme": {
+      "api": "https://vidsrc.me/embed/VIDEO_ID",
+      "name": "VidSrc.me Embed",
+      "detail": "https://vidsrc.me"
+    },
+    "superembed_stream": {
+      "api": "https://www.superembed.stream/embed/VIDEO_ID",
+      "name": "SuperEmbed Stream",
+      "detail": "https://www.superembed.stream"
+    },
+    "vidyard": {
+      "api": "https://api.vidyard.com/dashboard/v1/players",
+      "name": "Vidyard API",
+      "detail": "https://www.vidyard.com"
+    },
+    "sproutvideo": {
+      "api": "https://api.sproutvideo.com/v1/videos",
+      "name": "SproutVideo API",
+      "detail": "https://sproutvideo.com"
+    },
+    "dacast": {
+      "api": "https://api.dacast.com/v2/content",
+      "name": "Dacast API",
+      "detail": "https://www.dacast.com"
+    },
+    "kaltura": {
+      "api": "https://api.kaltura.com/v1/media",
+      "name": "Kaltura API",
+      "detail": "https://www.kaltura.com"
+    },
+    "vbrick": {
+      "api": "https://api.vbrick.com/v1/videos",
+      "name": "Vbrick API",
+      "detail": "https://www.vbrick.com"
+    },
+    "ustream": {
+      "api": "https://api.ustream.tv/channels/CHANNEL_ID.json",
+      "name": "Ustream API",
+      "detail": "https://www.ustream.tv"
+    },
+    "vzaar": {
+      "api": "https://api.vzaar.com/api/v2/videos",
+      "name": "Vzaar API",
+      "detail": "https://vzaar.com"
+    },
+    "mediaio": {
+      "api": "https://api.media.io/v1/video",
+      "name": "Media.io API",
+      "detail": "https://www.media.io"
+    },
+    "vplayed": {
+      "api": "https://api.vplayed.com/v1/stream",
+      "name": "VPlayed API",
+      "detail": "https://www.vplayed.com"
+    },
+    "vidio": {
+      "api": "https://api.vidio.com/videos",
+      "name": "Vidio API",
+      "detail": "https://www.vidio.com"
+    },
+    "vimeocdn": {
+      "api": "https://api.vimeocdn.com/v1/videos",
+      "name": "Vimeo CDN API",
+      "detail": "https://vimeocdn.com"
+    },
+    "flowplayer": {
+      "api": "https://api.flowplayer.com/v1/videos",
+      "name": "Flowplayer API",
+      "detail": "https://flowplayer.com"
+    }
+  }
+}
